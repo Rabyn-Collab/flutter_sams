@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
- const MyApp({Key key}) : super(key: key);
+  const MyApp({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 1;
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
